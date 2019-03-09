@@ -4,7 +4,6 @@ import indexRoute from '../routes/index'
 export default [
   {
     path: '/',
-    component: indexRoute,
-    unauthed: () => <Redirect to='/login' />
-  },
+    component: indexRoute
+  }
 ]
