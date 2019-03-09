@@ -19,8 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "tslint src/**/*.tsx --project tsconfig.json",
-    "lint:fix": "tslint src/**/*.tsx --fix --project tsconfig.json"
+    "lint": "tslint src/**/*.ts* --project tsconfig.json",
+    "lint:fix": "tslint src/**/*.ts* --fix --project tsconfig.json",
+    "nc": "node nc.js"
   },
   "eslintConfig": {
     "extends": "react-app"
