@@ -1,11 +1,13 @@
 import React from 'react'
-import { Navbar, Container, Player } from '../components'
+import { Navbar, Container, VideoColumn, Player } from '../components'
 
 export default () => (
   <>
     <Navbar />
     <Container>
-      <Player />
+      <VideoColumn>
+        <Player />
+      </VideoColumn>
     </Container>
   </>
 )
