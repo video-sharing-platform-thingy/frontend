@@ -9,4 +9,6 @@
   background: var(--color--background);
   color: var(--color--text-main);
   padding: var(--spacing--common);
+  display: flex;
+  flex-direction: row;
 }
