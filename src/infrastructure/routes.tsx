@@ -1,9 +1,16 @@
-import { Redirect } from 'react-router-dom'
-import indexRoute from '../routes/index'
+import IndexRoute from '../routes/index'
+import { Navbar } from '../components'
+
+interface Route {
+  path: string
+  component: any
+  header: any
+}
 
 export default [
   {
     path: '/',
-    component: indexRoute
+    component: IndexRoute,
+    header: Navbar
   }
-]
+] as Array<Route>

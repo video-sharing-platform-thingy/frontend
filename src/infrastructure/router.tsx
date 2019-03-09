@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import routes from './routes'
+import { Layout } from './layout'
 
 export default () => (
   <Switch>
@@ -8,7 +9,17 @@ export default () => (
       <Route
         exact
         path={route.path}
-        render={route.component}
+        render={(props) => {
+          const Header = route.header
+          const Component = route.component
+
+          return (
+            <Layout
+              header={<Header {...props}/>}
+              main={<Component {...props}/>}
+            />
+          )
+        }}
         key={route.path}
       />
     ))}

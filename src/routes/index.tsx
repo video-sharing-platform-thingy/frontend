@@ -3,38 +3,35 @@ import { Navbar, Container, VideoColumn, Player, Text, VideoTitle, Recommendatio
 
 export default () => (
   <>
-    <Navbar />
-    <Container>
-      <VideoColumn>
-        <Player />
-        <VideoTitle>Alexander Rybak - INTO A FANTASY (official soundtrack for "How To Train Your Dragon 2")</VideoTitle>
-        <Text muted>8,366,745 views</Text>
-        <Flex centered>
-          <LeftColumn>
-            <CompactChannel />
-          </LeftColumn>
-          <Button>
-            Subscribe?
-          </Button>
-        </Flex>
-      </VideoColumn>
-      <RecommendationsColumn>
-        <SectionTitle>Similar videos</SectionTitle>
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-        <CompactVideo />
-      </RecommendationsColumn>
-    </Container>
+    <VideoColumn>
+      <Player />
+      <VideoTitle>Alexander Rybak - INTO A FANTASY (official soundtrack for "How To Train Your Dragon 2")</VideoTitle>
+      <Text muted>8,366,745 views</Text>
+      <Flex centered>
+        <LeftColumn>
+          <CompactChannel />
+        </LeftColumn>
+        <Button>
+          Subscribe?
+        </Button>
+      </Flex>
+    </VideoColumn>
+    <RecommendationsColumn>
+      <SectionTitle>Similar videos</SectionTitle>
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+      <CompactVideo />
+    </RecommendationsColumn>
   </>
 )
