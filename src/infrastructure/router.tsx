@@ -2,7 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import routes from './routes'
 import { Layout } from './layout'
-import { Navbar } from '../components';
+import { Navbar } from '../components'
 
 export default () => (
   <Switch>
