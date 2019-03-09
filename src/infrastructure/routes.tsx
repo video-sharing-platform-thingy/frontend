@@ -6,5 +6,5 @@ export default [
     path: '/',
     component: indexRoute,
     unauthed: () => <Redirect to='/login' />
-  }
+  },
 ]

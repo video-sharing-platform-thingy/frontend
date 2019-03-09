@@ -6,3 +6,7 @@
 .muted {
   color: var(--color--text-muted);
 }
+
+.bold {
+  font-weight: bold;
+}

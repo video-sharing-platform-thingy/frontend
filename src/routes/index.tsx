@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Container, VideoColumn, Player, Text, VideoTitle, RecommendationsColumn } from '../components'
+import { Navbar, Container, VideoColumn, Player, Text, VideoTitle, RecommendationsColumn, SectionTitle, CompactVideo } from '../components'
 
 export default () => (
   <>
@@ -11,7 +11,21 @@ export default () => (
         <Text muted>8,366,745 views</Text>
       </VideoColumn>
       <RecommendationsColumn>
-        <Text>This is another column</Text>
+        <SectionTitle>Similar videos</SectionTitle>
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
+        <CompactVideo />
       </RecommendationsColumn>
     </Container>
   </>

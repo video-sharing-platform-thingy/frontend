@@ -7807,7 +7807,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8752,6 +8752,13 @@ shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
+
+shiitake@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/shiitake/-/shiitake-2.3.0.tgz#313d3b38735d10304de4293abaeac71b58438ebd"
+  integrity sha512-NsbSvqgV4DdX7bozmO3CJOFeRoIxF0+I76ZLSyvsiFK8wnrgyenYPen3MkE/UBh8bAMsH7SIoacISsDaglYk7w==
+  dependencies:
+    prop-types "^15.5.8"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"

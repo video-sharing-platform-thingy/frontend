@@ -1,4 +1,4 @@
 .container {
   margin-left: var(--spacing--common);
-  flex: 1;
+  flex: 3;
 }
