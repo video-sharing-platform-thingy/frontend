@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './CompactVideo.module.css'
 import Shiitake from 'shiitake'
-import { Text } from '..'
+import { Text, Flex } from '..'
 
 export default () => (
-  <div className={styles.container}>
+  <Flex className={styles.container}>
     <div className={styles.thumbnailContainer}>
-      <div className={styles.thumbnail}></div>
+      <div className={styles.thumbnail} />
     </div>
     <div className={styles.metaContainer}>
       <Shiitake lines={2} throttleRate={200} className={styles.metaTitle} tagName='h3'>
@@ -18,5 +18,5 @@ export default () => (
         885K Views
       </Text>
     </div>
-  </div>
+  </Flex>
 )

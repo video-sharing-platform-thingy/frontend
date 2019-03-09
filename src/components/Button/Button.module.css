@@ -1,0 +1,11 @@
+.button {
+  background: var(--color--primary);
+  border: none;
+  color: #ffffff;
+  font-family: var(--font-family--main);
+  font-size: 0.86em;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: calc(var(--spacing--common) / 1.5) calc(var(--spacing--common) * 1.5);
+  cursor: pointer;
+}
