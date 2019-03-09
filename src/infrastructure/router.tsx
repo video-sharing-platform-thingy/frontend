@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import routes from './routes'
 import { Layout } from './Layout'
+import { Navbar } from '../components';
 
 export default () => (
   <Switch>
@@ -9,16 +10,12 @@ export default () => (
       <Route
         exact
         path={route.path}
-        render={props => {
-          const Header = route.header
-          const Component = route.component
-          const Footer = route.footer
-
+        render={() => {
           return (
             <Layout
-              header={<Header/>}
-              main={<Component {...props}/>}
-              footer={<Footer/>}
+              header={route.header || <Navbar />}
+              main={route.component}
+              footer={route.header}
             />
           )
         }}

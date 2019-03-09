@@ -1,10 +1,11 @@
+import { ReactNode } from 'react'
 import indexRoute from '../routes/index'
 
 interface Route {
   path: string
-  component: any
-  header?: any
-  footer?: any
+  component: ReactNode
+  header?: ReactNode
+  footer?: ReactNode
 }
 
 export default [
