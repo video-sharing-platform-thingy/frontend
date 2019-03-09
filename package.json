@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "tslint src/**/*.tsx --project tsconfig.json",
+    "lint:fix": "tslint src/**/*.tsx --fix --project tsconfig.json"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "tslint": "^5.13.1",
+    "tslint-config-standard": "^8.0.1"
+  }
 }
