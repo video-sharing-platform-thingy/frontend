@@ -4,7 +4,7 @@ import { Container } from '../components'
 interface Props {
   header: React.ReactNode
   main: React.ReactNode
-  footer: React.ReactNode
+  footer?: React.ReactNode
 }
 
 export const Layout = ({
@@ -15,6 +15,6 @@ export const Layout = ({
   <Fragment>
     {header}
     <Container>{main}</Container>
-    {footer}
+    {footer || null}
   </Fragment>
 )

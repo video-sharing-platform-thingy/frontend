@@ -18,7 +18,7 @@ export default () => (
             <Layout
               header={<Header {...props}/>}
               main={<Component {...props}/>}
-              footer={<Footer {...props}/>}
+              footer={Footer && <Footer {...props}/>}
             />
           )
         }}
