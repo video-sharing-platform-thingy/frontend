@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
-import { Navbar, Container } from '../components'
+import { Container } from '../components'
 
 interface Props {
-  header?: React.ReactNode
+  header: React.ReactNode
   main: React.ReactNode
-  footer?: React.ReactNode
+  footer: React.ReactNode
 }
 
 export const Layout = ({
@@ -13,8 +13,8 @@ export const Layout = ({
   footer
 }: Props) => (
   <Fragment>
-    {header || <Navbar/>}
+    {header}
     <Container>{main}</Container>
-    {footer || <footer>test footer</footer>}
+    {footer}
   </Fragment>
 )
