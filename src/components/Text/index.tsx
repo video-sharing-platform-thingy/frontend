@@ -1,7 +1,8 @@
-import React from 'react';
+import React from 'react'
+import styles from './Text.module.css'
 
 export default ({ children }) => (
-  <p>
+  <p className={styles.container}>
     {children}
   </p>
 )

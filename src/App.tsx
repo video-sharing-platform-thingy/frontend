@@ -1,8 +1,9 @@
 import React from 'react'
-import Text from './components/Text'
+import { BrowserRouter } from 'react-router-dom'
+import Router from './infrastructure/router'
 
-export default (props: any) => (
-  <Text>
-    Hello, world!
-  </Text>
+export default () => (
+  <BrowserRouter>
+    <Router />
+  </BrowserRouter>
 )

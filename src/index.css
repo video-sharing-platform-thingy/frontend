@@ -9,6 +9,15 @@ body {
   --font-family--main: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  --font-family-code: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  --font-family--code: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+  --color--background: #272727;
+  --color--text-main: #ffffff;
+  --color--text-muted: #b7b7b7;
+  --color--primary: #09ce96;
+  
+  --height--navbar: 60px;
+  --width--player: 80%;
+  --spacing--common: 15px;
 }

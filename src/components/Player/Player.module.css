@@ -1,0 +1,7 @@
+.container {
+  background: #000000;
+  width: var(--width--player);
+  height: 0;
+  overflow: hidden;
+  padding-top: calc(9 / 16 * var(--width--player));
+}
