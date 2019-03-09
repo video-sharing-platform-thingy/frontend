@@ -22,7 +22,7 @@ body {
   --font-weight--bolder: 600;
 
   /* Uncomment for light theme */
-  --color--background: #fafafa;
+  /* --color--background: #fafafa;
   --color--text-main: #000000;
-  --color--text-muted: #828282;
+  --color--text-muted: #828282; */
 }
