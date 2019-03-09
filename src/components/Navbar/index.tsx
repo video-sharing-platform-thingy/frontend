@@ -4,6 +4,6 @@ import { Text } from '..'
 
 export default () => (
   <nav className={styles.container}>
-    <Text>Navbars</Text>
+    <Text>VSPT</Text>
   </nav>
 )
