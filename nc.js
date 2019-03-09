@@ -19,7 +19,7 @@ fs.writeFileSync(`src/components/${name}/${name}.module.css`, `
 .container {
   
 }
-`.trim()
+`.trim())
 const compIndex = fs.readFileSync('src/components/index.ts')
 fs.writeFileSync('src/components/index.ts', `
 ${compIndex}
