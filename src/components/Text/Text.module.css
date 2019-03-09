@@ -1,0 +1,12 @@
+.container {
+  font-family: var(--font-family--main);
+  margin: 0;
+}
+
+.muted {
+  color: var(--color--text-muted);
+}
+
+.bold {
+  font-weight: bold;
+}

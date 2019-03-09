@@ -1,0 +1,6 @@
+.container {
+  font-family: var(--font-family--main);
+  font-weight: normal;
+  font-size: 1.2em;
+  margin: var(--spacing--common) 0 calc(var(--spacing--common) / 2);
+}

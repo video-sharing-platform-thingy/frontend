@@ -9,6 +9,20 @@ body {
   --font-family--main: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  --font-family-code: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  --font-family--code: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+  --color--background: #272727;
+  --color--text-main: #ffffff;
+  --color--text-muted: #b7b7b7;
+  --color--primary: #00d296;
+  
+  --height--navbar: 60px;
+  --spacing--common: 15px;
+  --font-weight--bolder: 600;
+
+  /* Uncomment for light theme */
+  /* --color--background: #fafafa;
+  --color--text-main: #000000;
+  --color--text-muted: #828282; */
 }

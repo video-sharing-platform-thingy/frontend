@@ -1,10 +1,9 @@
 import { Redirect } from 'react-router-dom'
-import App from '../App';
+import indexRoute from '../routes/index'
 
 export default [
   {
     path: '/',
-    component: App,
-    unauthed: () => <Redirect to='/login' />
+    component: indexRoute
   }
 ]
