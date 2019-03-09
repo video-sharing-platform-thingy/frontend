@@ -1,0 +1,14 @@
+.container {
+  position: fixed;
+  top: var(--height--navbar);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: var(--color--background);
+  color: var(--color--text-main);
+  padding: var(--spacing--common);
+  display: flex;
+  flex-direction: row;
+}

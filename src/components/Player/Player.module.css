@@ -1,0 +1,10 @@
+.container {
+  background: #000000;
+  background-image: url('https://please.dont-hack.me/034ec69.png');
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: calc(9 / 16 * 100%);
+  cursor: pointer;
+}
