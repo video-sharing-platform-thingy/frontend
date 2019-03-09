@@ -1,16 +1,19 @@
-import { ReactNode } from 'react'
-import indexRoute from '../routes/index'
+import React, { ReactNode, ReactChildren } from 'react'
+import IndexRoute from '../routes/index'
+import { Navbar } from '../components';
 
 interface Route {
   path: string
-  component: ReactNode
-  header?: ReactNode
-  footer?: ReactNode
+  component: any
+  header: any
+  footer: any
 }
 
 export default [
   {
     path: '/',
-    component: indexRoute
+    component: IndexRoute,
+    header: Navbar,
+    footer: () => <footer>Test</footer>
   }
 ] as Array<Route>
