@@ -4,20 +4,14 @@ interface Theme {
   textMuted: string
 }
 
-interface ThemeMap {
-  dark: Theme,
-  light: Theme
-}
+export const dark = {
+  background: '#272727',
+  textMain: '#ffffff',
+  textMuted: '#b7b7b7'
+} as Theme
 
-export default {
-  dark: {
-    background: '#272727',
-    textMain: '#ffffff',
-    textMuted: '#b7b7b7'
-  },
-  light: {
-    background: '#fafafa',
-    textMain: '#000000',
-    textMuted: '#828282'
-  }
-} as ThemeMap
+export const light = {
+  background: '#fafafa',
+  textMain: '#000000',
+  textMuted: '#828282'
+} as Theme

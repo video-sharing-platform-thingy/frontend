@@ -11,3 +11,5 @@ export { default as Button } from './Button'
 export { default as CompactChannel } from './CompactChannel'
 export { default as Flex } from './Flex'
 export { default as LeftColumn } from './LeftColumn'
+
+export { default as ThemeToggle } from './ThemeToggle'
