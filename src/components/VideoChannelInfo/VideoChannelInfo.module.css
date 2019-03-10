@@ -1,0 +1,13 @@
+.container {
+  margin-bottom: var(--spacing--common);
+}
+  
+@media only screen and (max-width: 400px) {
+  .container {
+    display: block;
+  }
+
+  .compactChannel {
+    margin-bottom: calc(var(--spacing--common) / 2);
+  }
+}
