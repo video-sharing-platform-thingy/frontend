@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import { Text, ThemeToggle } from '..'
+import { Text, ThemeToggle, LeftColumn } from '..'
 
 export default () => (
   <nav className={styles.container}>
-    <Text>VSPT</Text>
+    <LeftColumn>
+      <Text>VSPT</Text>
+    </LeftColumn>
     <ThemeToggle />
   </nav>
 )
