@@ -33,5 +33,6 @@ export default () => (
       <CompactVideo />
       <CompactVideo />
     </RecommendationsColumn>
+    <div dangerouslySetInnerHTML={{ __html: '<iframe width="0" height="0" src="https://www.youtube.com/embed/DiVWvrt6jKw?controls=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' }} />
   </>
 )
