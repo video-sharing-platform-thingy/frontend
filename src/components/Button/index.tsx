@@ -1,8 +1,9 @@
 import React, { ReactNode, MouseEvent } from 'react'
 import styles from './Button.module.css'
+import classNames from 'classnames'
 
-export default ({ children, onClick }: { children: ReactNode, onClick?: (event: MouseEvent<HTMLButtonElement>) => void }) => (
-  <button className={styles.button} onClick={onClick}>
+export default ({ children, onClick, className }: { children: ReactNode, onClick?: (event: MouseEvent<HTMLButtonElement>) => void, className?: string }) => (
+  <button className={classNames(styles.button, className)} onClick={onClick}>
     {children}
   </button>
 )
