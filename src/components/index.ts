@@ -11,7 +11,6 @@ export { default as Button } from './Button'
 export { default as CompactChannel } from './CompactChannel'
 export { default as Flex } from './Flex'
 export { default as LeftColumn } from './LeftColumn'
-
 export { default as ThemeToggle } from './ThemeToggle'
 export { default as VideoChannelInfo } from './VideoChannelInfo'
 export { default as VideoMeta } from './VideoMeta'
