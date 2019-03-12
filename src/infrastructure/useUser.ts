@@ -9,7 +9,7 @@ export default () => {
     authed: false
   })
 
-  function updateUser(user: User) {
+  function updateUser (user: User) {
     setUser(user)
   }
 
