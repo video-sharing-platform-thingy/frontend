@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Cookies from 'js-cookie'
-import { dark as darkTheme, light as lightTheme, dark } from '../../infrastructure/themes'
+import { dark as darkTheme, light as lightTheme } from '../../infrastructure/themes'
 import Button from '../Button';
 
 function saveThem() {
