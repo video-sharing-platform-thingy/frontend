@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Cookies from 'js-cookie'
 import { dark as darkTheme, light as lightTheme } from '../../infrastructure/themes'
-import Button from '../Button';
+import Button from '../Button'
 
 function saveThem() {
   document.documentElement.style.setProperty('--color--background', darkTheme.background)
@@ -18,7 +18,6 @@ function blindThem() {
 }
 
 function toggleTheme(darkMode, setDarkMode) {
-  console.log('toggwe')
   setDarkMode(!darkMode)
   darkMode ? blindThem() : saveThem()
 }
