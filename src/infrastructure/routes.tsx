@@ -14,6 +14,7 @@ export default [
   {
     path: '/',
     component: IndexRoute,
-    header: Navbar
+    header: Navbar,
+    unauthed: () => <Redirect to='/login' />
   }
 ] as Array<Route>

@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import * as serviceWorker from './serviceWorker'
 import App from './App'
+import UserProvider from './infrastructure/UserProvider'
 
 ReactDOM.render(
-  <App />,
+  <UserProvider>
+    <App />
+  </UserProvider>,
   document.getElementById('root')
 )
 

@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import routes from './routes'
 import { Layout } from './layout'
-import useUser from './useUser'
+import { UserContext } from './UserProvider'
 
 export default () => {
-  const { user } = useUser()
-  return (
+  const { user } = useContext(UserContext)
+  console.log(user)
+  return user && (
     <Switch>
       {routes.map((route) => (
         <Route
