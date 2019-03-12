@@ -4,7 +4,7 @@
   
 @media only screen and (max-width: 400px) {
   .container {
-    display: block;
+    flex-direction: column;
   }
 
   .compactChannel {
