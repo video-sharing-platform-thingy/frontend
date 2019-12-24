@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Run on Repl.it](https://repl.it/badge/github/video-sharing-platform-thingy/frontend)](https://repl.it/github/video-sharing-platform-thingy/frontend)
 ## Available Scripts
 
 In the project directory, you can run:
